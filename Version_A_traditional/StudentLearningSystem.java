@@ -22,3 +22,22 @@ class Student{
 
     }
 }
+
+public class StudentLearningSystem{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        Student[] students= new Student[10];
+        int count = 0;
+
+        while(true){
+            System.out.println("\n---Student Learning System---");
+            System.out.println("01. Add Student");
+            System.out.println("02. Display All Students");
+            System.out.println("03. Search Student by ID");
+            System.out.println("04. Exit");
+            System.out.println("\n\nEnter your choice");
+            int choice = sc.nextInt();
+   
+        }
+    }
+}
